@@ -1,0 +1,1 @@
+{"version":3,"file":"static-token-provider.js","sourceRoot":"","sources":["../../src/auth/static-token-provider.ts"],"names":[],"mappings":";;;AAGA,MAAa,mBAAmB;IAC9B,YAA6B,KAAa;QAAb,UAAK,GAAL,KAAK,CAAQ;IAAG,CAAC;IAE9C,KAAK,CAAC,cAAc;QAClB,OAAO,IAAI,CAAC,KAAK,CAAC;IACpB,CAAC;CACF;AAND,kDAMC"}

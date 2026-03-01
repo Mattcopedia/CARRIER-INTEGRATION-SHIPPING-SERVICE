@@ -1,0 +1,66 @@
+{
+  "RateRequest": {
+    "Request": {
+      "TransactionReference": {
+        "CustomerContext": "carrier-integration-service"
+      }
+    },
+    "Shipment": {
+      "Shipper": {
+        "ShipperNumber": "123456",
+        "Address": {
+          "AddressLine": ["123 Main St"],
+          "City": "TIMONIUM",
+          "StateProvinceCode": "MD",
+          "PostalCode": "21093",
+          "CountryCode": "US"
+        }
+      },
+      "ShipTo": {
+        "Address": {
+          "AddressLine": ["456 Market St"],
+          "City": "Alpharetta",
+          "StateProvinceCode": "GA",
+          "PostalCode": "30005",
+          "CountryCode": "US"
+        }
+      },
+      "ShipFrom": {
+        "Address": {
+          "AddressLine": ["123 Main St"],
+          "City": "TIMONIUM",
+          "StateProvinceCode": "MD",
+          "PostalCode": "21093",
+          "CountryCode": "US"
+        }
+      },
+      "PaymentDetails": {
+        "ShipmentCharge": [
+          {
+            "Type": "01",
+            "BillShipper": {
+              "AccountNumber": "123456"
+            }
+          }
+        ]
+      },
+      "Service": {
+        "Code": "03"
+      },
+      "Package": [
+        {
+          "PackagingType": {
+            "Code": "02",
+            "Description": "Customer Supplied Package"
+          },
+          "PackageWeight": {
+            "UnitOfMeasurement": {
+              "Code": "LBS"
+            },
+            "Weight": "1"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "token_type": "Bearer",
+  "issued_at": "1706710921672",
+  "client_id": "test_client_id",
+  "access_token": "fixture_access_token",
+  "scope": "",
+  "expires_in": "14399",
+  "refresh_count": "0",
+  "status": "approved"
+}

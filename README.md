@@ -253,13 +253,13 @@ src/carriers/fedex/
 ```
 
 2. Implement:
-   1 FedexClient
+   1. FedexClient
 
-   2 FedexTokenProvider
+   2. FedexTokenProvider
 
-   3 request mapper
+   3. request mapper
 
-   4 response parser
+   4. response parser
 
 3. Register carrier:
 

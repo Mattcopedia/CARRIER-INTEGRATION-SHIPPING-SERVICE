@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Carrier Integration Service
 
 A modular, extensible TypeScript service for integrating shipping carriers (starting with UPS) behind a carrier-abstraction layer domain API.
@@ -318,3 +319,7 @@ UPS Documentation: https://developer.ups.com/tag/Rating?loc=en_US
 ## License
 
 No licenses for this project yet.
+=======
+# CARRIER-INTEGRATION-SHIPPING-SERVICE
+A modular, extensible TypeScript service for integrating shipping carriers (starting with UPS) behind a carrier-abstraction layer domain API.  The goal of this project is to demonstrate clean architecture, strong domain modeling, reliable authentication handling, structured error management, and realistic stubbed end-to-end integration testing.
+>>>>>>> 20b55ce3cdf4be308ec12c86b7d67f89e1539ccc

@@ -3,6 +3,7 @@
 A modular, extensible TypeScript service for integrating shipping carriers (starting with UPS) behind a carrier-abstraction layer domain API.
 
 The goal of this project is to demonstrate clean architecture, strong domain modeling, reliable authentication handling, structured error management, and realistic stubbed end-to-end integration testing.
+s
 
 ## Overview
 
@@ -252,13 +253,13 @@ src/carriers/fedex/
 ```
 
 2. Implement:
-   1. FedexClient
+   1 FedexClient
 
-   2. FedexTokenProvider
+   2 FedexTokenProvider
 
-   3. request mapper
+   3 request mapper
 
-   4. response parser
+   4 response parser
 
 3. Register carrier:
 

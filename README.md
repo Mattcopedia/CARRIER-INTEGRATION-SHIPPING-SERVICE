@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Carrier Integration Service
 
 A modular, extensible TypeScript service for integrating shipping carriers (starting with UPS) behind a carrier-abstraction layer domain API.
@@ -159,37 +158,38 @@ Integration tests are stubbed end-to-end tests using nock.
 They verify: request payload construction, authentication lifecycle, response normalization, error handling paths
 
 Covered Scenarios
-Auth
 
-token acquisition
+1.  Auth
 
-token reuse
+2.  token acquisition
 
-refresh after expiry
+3.  token reuse
 
-concurrent requests
+4.  refresh after expiry
 
-auth failures
+5.  concurrent requests
 
-rate limiting
+6.  auth failures
 
-malformed responses
+7.  rate limiting
 
-network timeouts
+8.  malformed responses
 
-Rating
+9.  network timeouts
 
-Shop vs Rate request modes
+10. Rating
 
-domain → UPS mapping
+11. Shop vs Rate request modes
 
-UPS → domain normalization
+12. domain → UPS mapping
 
-401 → AUTH_ERROR
+13. UPS → domain normalization
 
-5xx → CARRIER_ERROR
+14. 401 → AUTH_ERROR
 
-malformed JSON responses
+15. 5xx → CARRIER_ERROR
+
+16. malformed JSON responses
 
 No real UPS calls are made.
 
@@ -227,11 +227,13 @@ Run all tests:
 npm test
 ```
 
-Run all tests:
+Run a specific file:
 
 ```bash
 npm test -- tests/integration/ups-rate.test.ts
 ```
+
+Run tests in watch mode:
 
 ```bash
 npm run test:watch
@@ -248,14 +250,13 @@ src/carriers/fedex/
 ```
 
 2. Implement:
+   1. FedexClient
 
-FedexClient
+   2. FedexTokenProvider
 
-FedexTokenProvider
+   3. request mapper
 
-request mapper
-
-response parser
+   4. response parser
 
 3. Register carrier:
 
@@ -319,7 +320,3 @@ UPS Documentation: https://developer.ups.com/tag/Rating?loc=en_US
 ## License
 
 No licenses for this project yet.
-=======
-# CARRIER-INTEGRATION-SHIPPING-SERVICE
-A modular, extensible TypeScript service for integrating shipping carriers (starting with UPS) behind a carrier-abstraction layer domain API.  The goal of this project is to demonstrate clean architecture, strong domain modeling, reliable authentication handling, structured error management, and realistic stubbed end-to-end integration testing.
->>>>>>> 20b55ce3cdf4be308ec12c86b7d67f89e1539ccc

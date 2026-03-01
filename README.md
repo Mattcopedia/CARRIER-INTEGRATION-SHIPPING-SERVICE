@@ -298,19 +298,13 @@ src/services/carrier.service.ts
 
 1. Retry & Backoff Strategy
 
-   Add automatic retries for:
-
-   429 rate limits
-
-   transient 5xx failures
-
-   with exponential backoff.
+   Add automatic retries for: 429 rate limits, transient 5xx failures with exponential backoff.
 
 2. Environment Configuration Separation
 
    Currently one env schema validates all UPS settings.
 
-   Better approach:
+   Better approach to use would be spliting the files up like this:
 
    base.env.ts
 
@@ -318,7 +312,7 @@ src/services/carrier.service.ts
 
    ups-rating.env.ts
 
-   Prevents unrelated configs from breaking tests
+   This Prevents unrelated configs from breaking tests.
 
 ## Documentation
 

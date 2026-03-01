@@ -12,9 +12,11 @@ Example
 
 ```bash
 const rates = await carrierService.getRates({
+  carrier: "..."
   origin: {...},
   destination: {...},
-  packages: [...]
+  packages: [...],
+  serviceLevel?: "..."
 });
 ```
 

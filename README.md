@@ -277,7 +277,11 @@ No UPS code changes required.
 src/carriers/carrier.interface.ts
 ```
 
-2. Use the method created in src/services/carrier.service.ts
+2. Use the method created in this file.
+
+```bash
+src/services/carrier.service.ts
+```
 
 # Evaluation Criteria Coverage
 
